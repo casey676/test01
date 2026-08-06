@@ -4,13 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>測試頁面</title>
+  <style>
+    .rainbow-button {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 0.375rem;
+      color: #fff;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+    }
+
+    .red { background-color: #e53935; }
+    .orange { background-color: #fb8c00; }
+    .yellow { background-color: #fdd835; color: #212121; }
+    .green { background-color: #43a047; }
+    .blue { background-color: #1e88e5; }
+    .indigo { background-color: #3949ab; }
+    .violet { background-color: #8e24aa; }
+    .no-color { display: none; }
+  </style>
 </head>
 <body>
-  <button type="button">按鈕1</button>
-  <button type="button">按鈕2</button>
-  <button type="button">按鈕3</button>
-  <button type="button">按鈕4</button>
-  <button type="button">按鈕5</button>
-  <button type="button">按鈕6</button>
+  <button class="rainbow-button red" type="button">按鈕1</button>
+  <button class="rainbow-button orange" type="button">按鈕2</button>
+  <button class="rainbow-button yellow" type="button">按鈕3</button>
+  <button class="rainbow-button green" type="button">按鈕4</button>
+  <button class="rainbow-button blue" type="button">按鈕5</button>
+  <button class="rainbow-button indigo" type="button">按鈕6</button>
+  <button class="rainbow-button violet" type="button">按鈕7</button>
+  <button class="no-color" type="button">按鈕8</button>
 </body>
 </html>
